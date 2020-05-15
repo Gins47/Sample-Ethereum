@@ -1,0 +1,74 @@
+{
+	"id": "7b165a93-1144-97c6-d1c0-f0291df01fa3",
+	"name": "Ethereum-Sample",
+	"description": "",
+	"order": [
+		"83bece2f-e5b7-52cc-57dd-aaccfdeace9c",
+		"3fda797f-9d7e-782c-6d31-dd4507b867c8"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1589573688622,
+	"owner": "4706367",
+	"public": false,
+	"requests": [
+		{
+			"id": "3fda797f-9d7e-782c-6d31-dd4507b867c8",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:5000/ethereum/addHash",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1589577171035,
+			"name": "addHash",
+			"description": "",
+			"collectionId": "7b165a93-1144-97c6-d1c0-f0291df01fa3",
+			"responses": [],
+			"rawModeData": "{\n\t\"file_name\":\"blockchain.txt\",\n\t\"content\":\"A blockchain is a globally shared, transactional database. This means that everyone can read entries in the database just by participating in the network. If you want to change something in the database, you have to create a so-called transaction which has to be accepted by all others.  The word transaction implies that the change you want to make (assume you want to change two values at the same time) is either not done at all or completely applied. Furthermore, while your transaction is being applied to the database, no other transaction can alter it.\"\n}"
+		},
+		{
+			"id": "83bece2f-e5b7-52cc-57dd-aaccfdeace9c",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:5000/ethereum/getHash",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1589577168242,
+			"name": "getHash",
+			"description": "",
+			"collectionId": "7b165a93-1144-97c6-d1c0-f0291df01fa3",
+			"responses": [],
+			"rawModeData": "{\n\t\"file_name\":\"blockchain.txt\"\n}"
+		}
+	]
+}
