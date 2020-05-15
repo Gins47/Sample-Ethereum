@@ -1,3 +1,6 @@
+# Objective
+The objective the app is to have a given string and store it in the ethereum blockchain
+
 # Blockchain Setup
 # Steps to deploy smart contract in ganache
 
