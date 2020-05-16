@@ -9,7 +9,7 @@ router.route('/getHash').post(async (req, res) => {
             from: accounts[0],
             gas: 99999
         });
-        console.log("result = ", result)
+        console.log("result = ", web3.utils.toHex(result))
         res.status(200).json({file_name:req.body.file_name,hash:result});
 
     }catch(err) {
